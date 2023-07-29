@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  border-radius: 5%;
+  background-color: rgb(233, 228, 228);
+}
+
+.col {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* title 'Dizionary' */
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(196, 189, 189);
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.text-btn {
+  margin-right: 5px;
+}
+
+.sign {
+  margin-left: 5px;
+}
+/* @Media  */
+
+/* IF 'SCREEN' IS LESS THEN EQUAL TO 480 */
+@media only screen and (max-width: 480px) {
+  .sm-1 {
+    width: 100%;
+  }
+  /* .sm-0 {
+    display: none;
+  } */
+}
+
+/* IF 'SCREEN' IS GREATER THAN EQUAL TO 481 */
+@media only screen and (min-width: 481px) {
+  .med-2 {
+    /* if you have bigger screen try to do 50% */
+    width: 30%; /* my screen fits well with this % */
+  }
+}
+
+/* IF 'SCREEN' IS GREATER THAN EQUAL TO 1240 */
+@media only screen and (min-width: 1240) {
+  /* my screen is not large enough, adjust the % to your screen */
+  .lg-2 {
+    width: 40%;
+  }
+  .lg-1 {
+    width: 20%;
+  }
+}
