@@ -4,6 +4,38 @@
   box-sizing: border-box;
 }
 
+/* text box to tell user a thing to do with this website  */
+.text-show {
+  border: 1px solid black;
+  border-radius: 2%;
+  position: fixed;
+  height: 30%;
+  width: 100%;
+  margin-top: 10%;
+  background-color: rgb(184, 194, 197);
+}
+
+/* text inside text-show box */
+.text-show > h2 {
+  margin-left: 40%;
+  text-transform: capitalize;
+}
+
+.text-show > h3 {
+  margin-left: 55%;
+  text-transform: capitalize;
+}
+
+/* ok button */
+.ok-btn {
+  margin-top: 1%;
+  margin-left: 54%;
+  width: 10%;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 3px 3px 6px;
+}
+
 .row {
   border-radius: 5%;
   background-color: rgb(233, 228, 228);
@@ -22,13 +54,17 @@
   margin-right: 5px;
 }
 
+/* search box and btn */
 .text-btn {
   margin-right: 5px;
+  border: 1px solid red;
 }
 
+/* 'sign up' button */
 .sign {
   margin-left: 5px;
 }
+
 /* @Media  */
 
 /* IF 'SCREEN' IS LESS THEN EQUAL TO 480 */
