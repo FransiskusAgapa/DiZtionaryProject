@@ -67,8 +67,8 @@
 
 /* @Media  */
 
-/* IF 'SCREEN' IS LESS THEN EQUAL TO 600 */
-@media only screen and (max-width: 600px) {
+/* IF 'SCREEN' WIDTH IS LESS THEN EQUAL TO 480 | Phone */
+@media only screen and (max-width: 480px) {
   .sm-1 {
     display: flex;
     justify-content: center;
@@ -79,15 +79,15 @@
   } */
 }
 
-/* IF 'SCREEN' IS GREATER THAN EQUAL TO 601 */
-@media only screen and (min-width: 601px) {
+/* IF 'SCREEN' WIDTH IS GREATER THAN EQUAL TO 481 | Tablet */
+@media only screen and (min-width: 481px) {
   .med-2 {
     /* if you have bigger screen try to do 50% */
     width: 30%; /* my screen fits well with this % */
   }
 }
 
-/* IF 'SCREEN' IS GREATER THAN EQUAL TO 1240 */
+/* IF 'SCREEN' WIDTH IS GREATER THAN EQUAL TO 1240 | Desktop */
 @media only screen and (min-width: 1240) {
   /* my screen is not large enough, adjust the % to your screen */
   .lg-2 {
