@@ -8,18 +8,81 @@
   </head>
   <body>
     <div class="container">
-      <div class="text-show">
+      <!-- <div class="text-show-box">
         <h3 class="cookie-text">Cookies Time !</h3>
         <h2>Try to resize the page and see how this webpage reacts!</h2>
         <button class="ok-btn" onclick="remove()">Got it!</button>
-      </div>
+      </div> -->
+      <!--Nav Bar-->
       <div class="row">
         <h1 class="col title sm-1 med-2 lg-2">DiZionary</h1>
         <div class="col text-btn sm-1 med-2 lg-2">
           <input type="text" name="search" placeholder="🔍 search" />
           <button>Search</button>
         </div>
-        <button class="col sign sm-1 med-2 lg-1">Sign Up</button>
+        <button
+          class="col sign sm-1 med-2 lg-1"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
+          Sign Up
+        </button>
+      </div>
+      <!--Content Bar-->
+      <div class="row content-box">
+        <div class="nd-col word">
+          <div class="text-box">
+            <div class="text-info-box">
+              <h2>People</h2>
+              <h4><span style="font-style: italic">noun</span></h4>
+              <h5>Singular: Person</h5>
+              <h5>Plural: People</h5>
+              <button>1 like(s)</button>
+            </div>
+          </div>
+          <div class="text-def-box">
+            <h3>
+              <span style="font-weight: lighter">1st:</span> human beings in
+              general or considered collectively
+            </h3>
+            <h3>
+              <span style="font-weight: lighter">2nd:</span> the men, women, and
+              children of a particular nation, community, or ethnic group
+            </h3>
+          </div>
+        </div>
+        <div class="nd-col xword">
+          <div class="text-box">
+            <h2>Man</h2>
+          </div>
+          <div class="text-def-box">
+            <p>Definition box</p>
+          </div>
+        </div>
+        <div class="nd-col xword">
+          <div class="text-box">
+            <p>Woman</p>
+          </div>
+          <div class="text-def-box">
+            <p>Definition box</p>
+          </div>
+        </div>
+        <div class="nd-col xword">
+          <div class="text-box">
+            <p>Time</p>
+          </div>
+          <div class="text-def-box">
+            <p>Definition box</p>
+          </div>
+        </div>
+        <div class="nd-col xword">
+          <div class="text-box">
+            <p>Space</p>
+          </div>
+          <div class="text-def-box">
+            <p>Definition box</p>
+          </div>
+        </div>
       </div>
     </div>
     <script src="./script.js"></script>

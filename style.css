@@ -5,23 +5,23 @@
 }
 
 /* text box to tell user a thing to do with this website  */
-.text-show {
+.text-show-box {
   border: 1px solid black;
   border-radius: 2%;
   position: fixed;
-  height: 30%;
+  height: 20%;
   width: 100%;
   margin-top: 10%;
-  background-color: rgb(184, 194, 197);
+  background-color: rgb(209, 209, 209);
 }
 
 /* text inside text-show box */
-.text-show > h2 {
+.text-show-box > h2 {
   margin-left: 40%;
   text-transform: capitalize;
 }
 
-.text-show > h3 {
+.text-show-box > h3 {
   margin-left: 55%;
   text-transform: capitalize;
 }
@@ -41,12 +41,18 @@
   background-color: rgb(233, 228, 228);
 }
 
+/* first columns in first row */
 .col {
   display: inline-block;
   padding: 10px;
 }
 
-/* title 'Dizionary' */
+/* second columns in second row */
+.nd-col {
+  margin: 20px;
+}
+
+/* title 'DiZionary' */
 .title {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgb(196, 189, 189);
@@ -56,13 +62,63 @@
 
 /* search box and btn */
 .text-btn {
-  margin-right: 5px;
-  border: 1px solid red;
+  margin-left: 8%;
 }
 
 /* 'sign up' button */
 .sign {
   margin-left: 5px;
+}
+
+/* content box */
+.content-box {
+  margin-top: 10px;
+  border: 2px solid lightgray;
+}
+
+/* box for text and text definition */
+.word {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* box for text */
+.text-box {
+  border: 2px solid blue;
+  margin-left: 100px;
+}
+
+/* text detailed info */
+.text-info-box > h2,
+.text-info-box > h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-info-box > h2,
+.text-info-box > h4,
+.text-info-box > h5 {
+  margin: 20px;
+}
+
+/* text definition */
+.text-def-box > h3 {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+/* 'like' button box */
+.text-info-box > button {
+  margin-left: 35px;
+}
+
+/* box for text definition */
+.text-def-box {
+  border: 2px solid blue;
+  margin-right: 100px;
 }
 
 /* @Media  */
@@ -96,4 +152,9 @@
   .lg-1 {
     width: 20%;
   }
+}
+
+.shadow {
+  box-shadow: 2px 2px 5px black;
+  transition: 300ms;
 }
