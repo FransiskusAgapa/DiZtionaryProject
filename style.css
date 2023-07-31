@@ -62,12 +62,12 @@
 
 /* search box and btn */
 .text-btn {
-  margin-left: 8%;
+  margin-left: 1px;
 }
 
 /* 'sign up' button */
 .sign {
-  margin-left: 5px;
+  margin-left: 32px;
 }
 
 /* content box */
@@ -78,9 +78,11 @@
 
 /* box for text and text definition */
 .word {
-  border: 2px solid red;
+  border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid red;
 }
 
 /* box for text */
@@ -103,22 +105,27 @@
   margin: 20px;
 }
 
-/* text definition */
-.text-def-box > h3 {
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 10px;
-}
-
 /* 'like' button box */
 .text-info-box > button {
   margin-left: 35px;
+  margin-bottom: 10px;
+  background-color: lightblue;
+  border-radius: 4px;
+  width: 50%;
+  height: 50%;
 }
 
 /* box for text definition */
 .text-def-box {
   border: 2px solid blue;
   margin-right: 100px;
+}
+
+/* text definition */
+.text-def-box > h3 {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 10px;
 }
 
 /* @Media  */
@@ -130,9 +137,14 @@
     justify-content: center;
     width: 100%;
   }
-  /* .sm-0 {
+
+  .cont-sm-1 {
+    width: 100%;
+  }
+
+  .cont-sm-0 {
     display: none;
-  } */
+  }
 }
 
 /* IF 'SCREEN' WIDTH IS GREATER THAN EQUAL TO 481 | Tablet */
