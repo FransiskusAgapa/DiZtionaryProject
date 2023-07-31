@@ -67,9 +67,11 @@
 
 /* @Media  */
 
-/* IF 'SCREEN' IS LESS THEN EQUAL TO 480 */
-@media only screen and (max-width: 480px) {
+/* IF 'SCREEN' IS LESS THEN EQUAL TO 600 */
+@media only screen and (max-width: 600px) {
   .sm-1 {
+    display: flex;
+    justify-content: center;
     width: 100%;
   }
   /* .sm-0 {
@@ -77,8 +79,8 @@
   } */
 }
 
-/* IF 'SCREEN' IS GREATER THAN EQUAL TO 481 */
-@media only screen and (min-width: 481px) {
+/* IF 'SCREEN' IS GREATER THAN EQUAL TO 601 */
+@media only screen and (min-width: 601px) {
   .med-2 {
     /* if you have bigger screen try to do 50% */
     width: 30%; /* my screen fits well with this % */
